@@ -1,0 +1,30 @@
+
+{
+  "name": "queueless-server",
+  "version": "1.0.0",
+  "description": "QUEUELESS - Real-Time Queue and Service Management System (Backend)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --experimental-sqlite src/index.js",
+    "dev": "node --experimental-sqlite --watch src/index.js",
+    "seed": "node --experimental-sqlite src/config/seed.js",
+    "admin:create": "node --experimental-sqlite src/config/createAdmin.js",
+    "test": "node --experimental-sqlite ./node_modules/jest/bin/jest.js --runInBand --forceExit",
+    "test:verbose": "node --experimental-sqlite ./node_modules/jest/bin/jest.js --runInBand --forceExit --verbose"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
