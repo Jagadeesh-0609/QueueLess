@@ -225,9 +225,9 @@ QueueLess includes customer token workflows, staff queue operations, queue displ
 
 ## Authors
 
-**G. Jagadeeshwar Reddy**
-**Abdul Sameer Khan**
-**B. Yazdaan**
+- **G. Jagadeeshwar Reddy**
+- **Abdul Sameer Khan**
+- **B. Yazdaan**
 
 GitHub: [Jagadeesh-0609](https://github.com/Jagadeesh-0609)
 
